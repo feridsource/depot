@@ -8,6 +8,7 @@ Simple shared preferences with encryption option.
     String? value = await depot.getString("testKey"); // get
     depot.setSecString("testSecureKey", "testSecureValue"); // set encrypted
     String? secureValue = await depot.getString("testSecureKey"); // get decrypted
+```
 				
 # Licence
 
