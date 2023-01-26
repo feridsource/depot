@@ -1,4 +1,4 @@
-name: depot
+name: easy_depot
 description: Simple shared preferences with encryption option.
 version: 0.0.1
 repository: https://github.com/feridsource/depot

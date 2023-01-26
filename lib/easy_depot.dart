@@ -1,4 +1,4 @@
-library depot;
+library easy_depot;
 
 import 'dart:convert';
 
@@ -6,11 +6,11 @@ import 'package:encrypted_shared_preferences/encrypted_shared_preferences.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 /// Practical shared preferences with encryption option.
-class Depot {
+class EasyDepot {
   late SharedPreferences _prefs; // shared preferences
   late EncryptedSharedPreferences _prefsSecure; // encrypted preferences
 
-  Depot() {
+  EasyDepot() {
     initStorage();
   }
 
